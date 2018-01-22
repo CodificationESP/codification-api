@@ -74,5 +74,9 @@
   "Codification": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Periode": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

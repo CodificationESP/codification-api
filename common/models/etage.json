@@ -1,7 +1,7 @@
 {
   "name": "Etage",
   "plural": "Etages",
-  "base": "Batiment",
+  "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true
@@ -30,7 +30,7 @@
       "foreignKey": ""
     },
     "couloirs": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Couloir",
       "foreignKey": ""
     }

@@ -8,9 +8,7 @@ module.exports = function(server) {
 			'BatimentContrainte',
 			'CouloirContrainte',
 			'EtageContrainte',
-			'ChambreContrainte',
-			'EtageCouloir',
-
+			'ChambreContrainte'
 		]);
 	const mysqlDs = server.dataSources.mysql;
 

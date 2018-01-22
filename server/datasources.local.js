@@ -11,7 +11,6 @@ module.exports = {
     "password": "root",
     "name": "mysql",
     "user": "root",
-    "connector": "mysql",
-    "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    "connector": "mysql"
   }
 }

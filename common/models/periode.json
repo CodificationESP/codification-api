@@ -1,0 +1,23 @@
+{
+  "name": "Periode",
+  "plural": "periodes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "datedebut": {
+      "type": "date",
+      "required": true
+    },
+    "datedefin": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
